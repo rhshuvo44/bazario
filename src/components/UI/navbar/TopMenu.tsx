@@ -142,7 +142,9 @@ const TopMenu = () => {
               ))}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Bazario</a>
+          <Link href="/" className="btn btn-ghost hover:bg-transparent text-[#FEBD69] text-3xl">
+            Bazario
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-2">
