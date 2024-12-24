@@ -1,5 +1,5 @@
 import Footer from "@/components/UI/footer/Footer";
-import Navbar from "@/components/UI/navbar/Navbar";
+import Header from "@/components/UI/navbar/Header";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -31,7 +31,7 @@ export default function RootLayout({
         cz-shortcut-listen="true"
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar />
+        <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
       </body>
