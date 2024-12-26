@@ -55,10 +55,10 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 bg-[#232F3E] hidden md:block w-52">
           <li>
             <details className="dropdown-hover">
-              <summary className="uppercase hover:text-white focus-visible:text-white active:text-white">
+              <summary className="uppercase hover:text-white focus-visible:text-white active:text-white z-[99999999]">
                 Shop Categories
               </summary>
-              <ul className="p-2 bg-[#232F3E] rounded-sm">
+              <ul className="p-2 bg-[#232F3E] rounded-sm z-[9999]">
                 {renderMenu(categoryNavLinks)}
               </ul>
             </details>
