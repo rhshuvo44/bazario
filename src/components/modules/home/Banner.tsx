@@ -41,7 +41,7 @@ const Banner = () => {
         </div> */}
         </div>
         <div className="w-full md:w-1/2">
-          <div className="flex flex-wrap justify-between items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center">
             <div className="small-banner relative p-3">
               <Image src={catBanner} className="img-fluid rounded-3" alt="" />
               <div className="small-banner-content absolute">
