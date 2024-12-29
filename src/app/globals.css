@@ -22,7 +22,7 @@ body {
 .menu li > :not(ul, .menu-title, details, .btn).active,
 .menu li > details > summary:active {
   background-color: transparent;
-  color: #febd69;
+  color: var(--color-febd69);
 }
 :where(
     .menu li:not(.menu-title, .disabled) > :not(ul, details, .menu-title)
@@ -44,7 +44,7 @@ body {
   ):is(summary):not(.active, .btn):focus-visible {
   cursor: pointer;
   background-color: transparent;
-  color: #febd69;
+  color: var(--color-febd69);
   outline: 2px solid #0000;
   outline-offset: 2px;
 }
@@ -60,7 +60,7 @@ body {
           > summary:not(.menu-title)
       ):not(.active, .btn):hover {
       background-color: transparent;
-      color: #febd69;
+      color: var(--color-febd69);
     }
   }
 }
@@ -111,9 +111,6 @@ body {
   letter-spacing: -2;
 }
 
-.small-banner {
-  width: 49%;
-}
 .small-banner-content {
   top: 25%;
   left: 10%;
@@ -146,13 +143,6 @@ body {
 }
 /* categories */
 
-.categories > div {
-  width: 25%;
-  padding: 10px 10px 10px 20px;
-}
-.categories > div > div {
-  width: 60%;
-}
 .categories > div:nth-child(1),
 .categories > div:nth-child(2),
 .categories > div:nth-child(3),
@@ -168,3 +158,171 @@ body {
   border-right: 1px solid var(--color-ededed);
 }
 /* categories end */
+/* ================Featured Collection ============== */
+.product-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.product-card .product-title {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  margin: 0 0 14px;
+}
+.product-card .product-img {
+  height: 270px;
+}
+.product-card .product-img img {
+  object-fit: contain;
+}
+.product-card .product-img > img:last-child {
+  display: none;
+}
+.product-card:hover .product-img > img:nth-child(1) {
+  display: none;
+}
+.product-card:hover .product-img > img:last-child {
+  display: block;
+}
+
+.product-card:hover .action-bar {
+  right: 10px;
+}
+.product-card:hover .action-bar {
+  right: 10px;
+}
+.product-card .product-details h6 {
+  color: var(--color-bf4800);
+  font-style: 13px;
+}
+.product-card .product-details h5 {
+  color: var(--color-1c1c1b);
+  font-style: 15px;
+}
+.product-card .product-details p.price {
+  color: var(--color-1c1c1b);
+  font-style: 16px;
+}
+.wishlist-icon {
+  top: 3%;
+  right: 10px;
+}
+.action-bar {
+  top: 10%;
+  right: -23px;
+  transition: all 0.3s;
+}
+.famous-card .famous-card-content {
+  top: 10%;
+  left: 10%;
+}
+
+.special-product-card {
+  padding: 20px 10px;
+  border-radius: 10px;
+  background: white;
+}
+.special-product-card .badge {
+  background: #ef3939 !important;
+}
+.special-product-card .special-product-content .title {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  margin: 0 0 14px;
+}
+.special-product-card .special-product-content .brand {
+  color: #bf4800;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0 0 12px;
+  opacity: 1;
+  font-size: 13px;
+}
+/* =============BLog ================== */
+.blog-card {
+  background: white;
+  border-radius: 10px;
+}
+.blog-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  object-fit: contain;
+}
+.blog-content {
+  padding: 15px;
+}
+.blog-content.date {
+  font-size: 13px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--color-777777);
+  padding: 0;
+}
+.blog-content h5 {
+  font-size: 18px;
+  color: var(--color-131921);
+}
+.blog-content p.desc {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--color-777777);
+}
+
+footer {
+  background: var(--color-232f3e);
+}
+footer h4 {
+  font-size: 18px;
+  line-height: 25px;
+}
+footer .footer-links a,
+footer address {
+  font-size: 13px;
+  line-height: 25px;
+  transition: all 0.5s;
+  color: #fff;
+}
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+.social-icons a:hover {
+  color: var(--color-febd69);
+}
+footer .footer-links a:hover {
+  color: var(--color-febd69);
+}
+footer:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer .input-group-text {
+  background: var(--color-232f3e);
+  color: white;
+  /* padding: 8px 11px; */
+  text-transform: uppercase;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.5;
+}
+footer .input-group-text:hover {
+  background: var(--color-febd69);
+}
