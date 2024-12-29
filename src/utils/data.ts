@@ -1,11 +1,12 @@
+import blog from "@/assets/images/blog-1.jpg";
 import camera from "@/assets/images/camera.jpg";
 import headphone from "@/assets/images/headphone.jpg";
+import homeApp from "@/assets/images/homeapp.jpg";
 import service1 from "@/assets/images/service-02.png";
 import service2 from "@/assets/images/service-03.png";
 import service3 from "@/assets/images/service-04.png";
 import service4 from "@/assets/images/service-05.png";
 import service from "@/assets/images/service.png";
-import homeApp from "@/assets/images/homeapp.jpg";
 import speaker from "@/assets/images/speaker.jpg";
 export const services = [
     {
@@ -538,4 +539,100 @@ export const products = [
 
 
 ]
+
+
+export const blogs = [
+    {
+        id: 1,
+        title: "10 Tips for Becoming a Better Web Developer",
+        author: "Parvez Ahmed",
+        authorImage: "https://example.com/images/authors/parvez.jpg",
+        content: "Web development is a constantly evolving field...",
+        image: blog,
+        tags: ["web development", "programming", "career"],
+        category: "Technology",
+        publishedDate: "2024-12-29T10:00:00Z",
+        updatedDate: "2024-12-29T12:00:00Z",
+        comments: [
+            {
+                user: "Jane Doe",
+                avatarUrl: "https://example.com/images/avatars/jane.jpg",
+                comment: "Great tips! I especially agree with keeping up with new frameworks.",
+                date: "2024-12-29T13:00:00Z"
+            }
+        ]
+    },
+    {
+        id: 2,
+        title: "The Ultimate Guide to React Animations",
+        author: "John Smith",
+        content: "Animations can greatly enhance the user experience...",
+        image: blog,
+        tags: ["React", "animations", "frontend"],
+        category: "Frontend Development",
+        publishedDate: "2024-12-20T09:30:00Z",
+        updatedDate: "2024-12-21T11:00:00Z",
+        comments: [
+            {
+                user: "Alice Brown",
+                avatarUrl: "https://example.com/images/avatars/alice.jpg",
+                comment: "I’ve been looking for a guide like this. Thanks for sharing!",
+                date: "2024-12-21T14:20:00Z"
+            },
+            {
+                user: "Tom Lee",
+                avatarUrl: "https://example.com/images/avatars/tom.jpg",
+                comment: "Can you cover SVG animations in the next post?",
+                date: "2024-12-22T08:45:00Z"
+            }
+        ]
+    },
+    {
+        id: 3,
+        title: "10 Tips for Becoming a Better Web Developer",
+        author: "Parvez Ahmed",
+        authorImage: "https://example.com/images/authors/parvez.jpg",
+        content: "Web development is a constantly evolving field...",
+        image: blog,
+        tags: ["web development", "programming", "career"],
+        category: "Technology",
+        publishedDate: "2024-12-29T10:00:00Z",
+        updatedDate: "2024-12-29T12:00:00Z",
+        comments: [
+            {
+                user: "Jane Doe",
+                avatarUrl: "https://example.com/images/avatars/jane.jpg",
+                comment: "Great tips! I especially agree with keeping up with new frameworks.",
+                date: "2024-12-29T13:00:00Z"
+            }
+        ]
+    },
+    {
+        id: 4,
+        title: "The Ultimate Guide to React Animations",
+        author: "John Smith",
+        content: "Animations can greatly enhance the user experience...",
+        image: blog,
+        tags: ["React", "animations", "frontend"],
+        category: "Frontend Development",
+        publishedDate: "2024-12-20T09:30:00Z",
+        updatedDate: "2024-12-21T11:00:00Z",
+        comments: [
+            {
+                user: "Alice Brown",
+                avatarUrl: "https://example.com/images/avatars/alice.jpg",
+                comment: "I’ve been looking for a guide like this. Thanks for sharing!",
+                date: "2024-12-21T14:20:00Z"
+            },
+            {
+                user: "Tom Lee",
+                avatarUrl: "https://example.com/images/avatars/tom.jpg",
+                comment: "Can you cover SVG animations in the next post?",
+                date: "2024-12-22T08:45:00Z"
+            }
+        ]
+    }
+]
+
+
 

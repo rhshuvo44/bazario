@@ -252,3 +252,35 @@ body {
   opacity: 1;
   font-size: 13px;
 }
+/* =============BLog ================== */
+.blog-card {
+  background: white;
+  border-radius: 10px;
+}
+.blog-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  object-fit: contain;
+}
+.blog-content {
+  padding: 15px;
+}
+.blog-content.date {
+  font-size: 13px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--color-777777);
+  padding: 0;
+}
+.blog-content h5 {
+  font-size: 18px;
+  color: var(--color-131921);
+}
+.blog-content p.desc {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--color-777777);
+}

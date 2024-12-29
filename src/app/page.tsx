@@ -1,4 +1,5 @@
 import Banner from "@/components/modules/home/Banner";
+import Blog from "@/components/modules/home/Blog";
 import Categories from "@/components/modules/home/Categories";
 import Famous from "@/components/modules/home/Famous";
 import Featured from "@/components/modules/home/Featured";
@@ -18,6 +19,7 @@ export default function Home() {
       <Special />
       <Popular />
       <HomeMarquee />
+      <Blog />
     </>
   );
 }
