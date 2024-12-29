@@ -284,3 +284,45 @@ body {
   line-height: 1.5;
   color: var(--color-777777);
 }
+
+footer {
+  background: var(--color-232f3e);
+}
+footer h4 {
+  font-size: 18px;
+  line-height: 25px;
+}
+footer .footer-links a,
+footer address {
+  font-size: 13px;
+  line-height: 25px;
+  transition: all 0.5s;
+  color: #fff;
+}
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+.social-icons a:hover {
+  color: var(--color-febd69);
+}
+footer .footer-links a:hover {
+  color: var(--color-febd69);
+}
+footer:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer .input-group-text {
+  background: var(--color-232f3e);
+  color: white;
+  /* padding: 8px 11px; */
+  text-transform: uppercase;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.5;
+}
+footer .input-group-text:hover {
+  background: var(--color-febd69);
+}

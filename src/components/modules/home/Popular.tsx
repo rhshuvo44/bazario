@@ -7,10 +7,10 @@ const Popular = () => {
     <Container class1="popular-wrapper home-wrapper-2 p-5">
       <h2 className="section-heading">Our Popular Products</h2>
 
-      <div className="flex flex-wrap">
-        <div className="w-full md:w-1/4">
+      <div className="flex flex-wrap gap-2 md:gap-0">
+        <div className="w-full md:w-1/5">
           <div className="card shadow-lg bg-white mx-2">
-            <ul className="menu  rounded-box ">
+            <ul className="menu rounded-box ">
               <li>
                 <a>
                   <svg
@@ -71,7 +71,7 @@ const Popular = () => {
             </ul>
           </div>
         </div>
-        <div className="w-3/4">
+        <div className="w-full md:w-4/5">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
             {products
               ?.filter((product) => product?.tags === "popular")

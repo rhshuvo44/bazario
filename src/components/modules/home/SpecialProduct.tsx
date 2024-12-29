@@ -26,9 +26,9 @@ const SpecialProduct = ({ product }: { product: TProducts }) => {
   } = product;
   return (
     <div className="special-product-card">
-      <div className="flex justify-between">
+      <div className="flex justify-between flex-wrap">
         <div>
-          <Image src={images[0]} className="img-fluid" alt={title} />
+          <Image src={images[0]} className="" alt={title} />
         </div>
         <div className="special-product-content">
           <h5 className="brand">{brand}</h5>
