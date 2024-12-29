@@ -5,6 +5,8 @@ import service2 from "@/assets/images/service-03.png";
 import service3 from "@/assets/images/service-04.png";
 import service4 from "@/assets/images/service-05.png";
 import service from "@/assets/images/service.png";
+import homeApp from "@/assets/images/homeapp.jpg";
+import speaker from "@/assets/images/speaker.jpg";
 export const services = [
     {
         title: "Free Shipping",
@@ -304,11 +306,227 @@ export const products = [
         "quantity": 15,
         "sold": 5,
         "color": "Stainless Steel",
-        "tags": "special",
+        "tags": "popular",
         "totalRating": 4.6,
         "images": [
-            camera,
-            headphone
+            speaker,
+            homeApp
+        ],
+        "ratings": [
+            { "user": "KitchenGuru", "rating": 5 },
+            { "user": "ChefLife", "rating": 4 }
+        ],
+        "createdAt": "2024-02-15T18:00:00Z",
+        "updatedAt": "2024-03-15T20:00:00Z"
+    },
+    {
+        "title": "Smart Refrigerator SR300",
+        "_id": "64b1f9c5d34e2b0012345687",
+        "slug": "smart-refrigerator-sr300",
+        "description": "A smart refrigerator with advanced cooling technology.",
+        "price": 2199.99,
+        "category": "Appliances",
+        "brand": "CoolTech",
+        "quantity": 15,
+        "sold": 5,
+        "color": "Stainless Steel",
+        "tags": "popular",
+        "totalRating": 4.6,
+        "images": [
+            speaker,
+            homeApp
+        ],
+        "ratings": [
+            { "user": "KitchenGuru", "rating": 5 },
+            { "user": "ChefLife", "rating": 4 }
+        ],
+        "createdAt": "2024-02-15T18:00:00Z",
+        "updatedAt": "2024-03-15T20:00:00Z"
+    },
+    {
+        "title": "Smart Refrigerator SR300",
+        "_id": "64b1f9c5d34e2b0012345687",
+        "slug": "smart-refrigerator-sr300",
+        "description": "A smart refrigerator with advanced cooling technology.",
+        "price": 2199.99,
+        "category": "Appliances",
+        "brand": "CoolTech",
+        "quantity": 15,
+        "sold": 5,
+        "color": "Stainless Steel",
+        "tags": "popular",
+        "totalRating": 4.6,
+        "images": [
+            speaker,
+            homeApp
+        ],
+        "ratings": [
+            { "user": "KitchenGuru", "rating": 5 },
+            { "user": "ChefLife", "rating": 4 }
+        ],
+        "createdAt": "2024-02-15T18:00:00Z",
+        "updatedAt": "2024-03-15T20:00:00Z"
+    },
+    {
+        "title": "Smart Refrigerator SR300",
+        "_id": "64b1f9c5d34e2b0012345687",
+        "slug": "smart-refrigerator-sr300",
+        "description": "A smart refrigerator with advanced cooling technology.",
+        "price": 2199.99,
+        "category": "Appliances",
+        "brand": "CoolTech",
+        "quantity": 15,
+        "sold": 5,
+        "color": "Stainless Steel",
+        "tags": "popular",
+        "totalRating": 4.6,
+        "images": [
+            speaker,
+            homeApp
+        ],
+        "ratings": [
+            { "user": "KitchenGuru", "rating": 5 },
+            { "user": "ChefLife", "rating": 4 }
+        ],
+        "createdAt": "2024-02-15T18:00:00Z",
+        "updatedAt": "2024-03-15T20:00:00Z"
+    },
+    {
+        "title": "Smart Refrigerator SR300",
+        "_id": "64b1f9c5d34e2b0012345687",
+        "slug": "smart-refrigerator-sr300",
+        "description": "A smart refrigerator with advanced cooling technology.",
+        "price": 2199.99,
+        "category": "Appliances",
+        "brand": "CoolTech",
+        "quantity": 15,
+        "sold": 5,
+        "color": "Stainless Steel",
+        "tags": "popular",
+        "totalRating": 4.6,
+        "images": [
+            speaker,
+            homeApp
+        ],
+        "ratings": [
+            { "user": "KitchenGuru", "rating": 5 },
+            { "user": "ChefLife", "rating": 4 }
+        ],
+        "createdAt": "2024-02-15T18:00:00Z",
+        "updatedAt": "2024-03-15T20:00:00Z"
+    },
+    {
+        "title": "Smart Refrigerator SR300",
+        "_id": "64b1f9c5d34e2b0012345687",
+        "slug": "smart-refrigerator-sr300",
+        "description": "A smart refrigerator with advanced cooling technology.",
+        "price": 2199.99,
+        "category": "Appliances",
+        "brand": "CoolTech",
+        "quantity": 15,
+        "sold": 5,
+        "color": "Stainless Steel",
+        "tags": "popular",
+        "totalRating": 4.6,
+        "images": [
+            speaker,
+            homeApp
+        ],
+        "ratings": [
+            { "user": "KitchenGuru", "rating": 5 },
+            { "user": "ChefLife", "rating": 4 }
+        ],
+        "createdAt": "2024-02-15T18:00:00Z",
+        "updatedAt": "2024-03-15T20:00:00Z"
+    },
+    {
+        "title": "Smart Refrigerator SR300",
+        "_id": "64b1f9c5d34e2b0012345687",
+        "slug": "smart-refrigerator-sr300",
+        "description": "A smart refrigerator with advanced cooling technology.",
+        "price": 2199.99,
+        "category": "Appliances",
+        "brand": "CoolTech",
+        "quantity": 15,
+        "sold": 5,
+        "color": "Stainless Steel",
+        "tags": "popular",
+        "totalRating": 4.6,
+        "images": [
+            speaker,
+            homeApp
+        ],
+        "ratings": [
+            { "user": "KitchenGuru", "rating": 5 },
+            { "user": "ChefLife", "rating": 4 }
+        ],
+        "createdAt": "2024-02-15T18:00:00Z",
+        "updatedAt": "2024-03-15T20:00:00Z"
+    },
+    {
+        "title": "Smart Refrigerator SR300",
+        "_id": "64b1f9c5d34e2b0012345687",
+        "slug": "smart-refrigerator-sr300",
+        "description": "A smart refrigerator with advanced cooling technology.",
+        "price": 2199.99,
+        "category": "Appliances",
+        "brand": "CoolTech",
+        "quantity": 15,
+        "sold": 5,
+        "color": "Stainless Steel",
+        "tags": "popular",
+        "totalRating": 4.6,
+        "images": [
+            speaker,
+            homeApp
+        ],
+        "ratings": [
+            { "user": "KitchenGuru", "rating": 5 },
+            { "user": "ChefLife", "rating": 4 }
+        ],
+        "createdAt": "2024-02-15T18:00:00Z",
+        "updatedAt": "2024-03-15T20:00:00Z"
+    },
+    {
+        "title": "Smart Refrigerator SR300",
+        "_id": "64b1f9c5d34e2b0012345687",
+        "slug": "smart-refrigerator-sr300",
+        "description": "A smart refrigerator with advanced cooling technology.",
+        "price": 2199.99,
+        "category": "Appliances",
+        "brand": "CoolTech",
+        "quantity": 15,
+        "sold": 5,
+        "color": "Stainless Steel",
+        "tags": "popular",
+        "totalRating": 4.6,
+        "images": [
+            speaker,
+            homeApp
+        ],
+        "ratings": [
+            { "user": "KitchenGuru", "rating": 5 },
+            { "user": "ChefLife", "rating": 4 }
+        ],
+        "createdAt": "2024-02-15T18:00:00Z",
+        "updatedAt": "2024-03-15T20:00:00Z"
+    },
+    {
+        "title": "Smart Refrigerator SR300",
+        "_id": "64b1f9c5d34e2b0012345687",
+        "slug": "smart-refrigerator-sr300",
+        "description": "A smart refrigerator with advanced cooling technology.",
+        "price": 2199.99,
+        "category": "Appliances",
+        "brand": "CoolTech",
+        "quantity": 15,
+        "sold": 5,
+        "color": "Stainless Steel",
+        "tags": "popular",
+        "totalRating": 4.6,
+        "images": [
+            speaker,
+            homeApp
         ],
         "ratings": [
             { "user": "KitchenGuru", "rating": 5 },

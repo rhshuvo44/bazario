@@ -3,7 +3,7 @@ import { products } from "@/utils/data";
 import ProductCard from "./ProductCard";
 
 const Featured = () => {
-  console.log(products);
+ 
   return (
     <Container class1="featured-wrapper home-wrapper-2 py-5 px-5">
       <h2 className="section-heading">Featured Collection</h2>

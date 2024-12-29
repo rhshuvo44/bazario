@@ -2,6 +2,7 @@ import Banner from "@/components/modules/home/Banner";
 import Categories from "@/components/modules/home/Categories";
 import Famous from "@/components/modules/home/Famous";
 import Featured from "@/components/modules/home/Featured";
+import Popular from "@/components/modules/home/Popular";
 import Service from "@/components/modules/home/Service";
 import Special from "@/components/modules/home/Special";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Featured />
       <Famous />
       <Special />
+      <Popular/>
     </>
   );
 }
