@@ -12,7 +12,7 @@ export type TProducts = {
     sold: number
     color: string
     tags: string
-    totalrating: number
+    totalRating: number
     images: StaticImageData[]
     ratings: Rating[]
     createdAt: string

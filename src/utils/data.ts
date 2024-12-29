@@ -89,7 +89,7 @@ export const products = [
         "sold": 30,
         "color": "Black",
         "tags": "featured",
-        "totalrating": 4.5,
+        "totalRating": 4.5,
         "images": [
             camera,
             headphone
@@ -113,7 +113,7 @@ export const products = [
         "sold": 75,
         "color": "White",
         "tags": "featured",
-        "totalrating": 4.8,
+        "totalRating": 4.8,
         "images": [
             camera,
             headphone
@@ -137,7 +137,7 @@ export const products = [
         "sold": 20,
         "color": "Silver",
         "tags": "featured",
-        "totalrating": 4.7,
+        "totalRating": 4.7,
         "images": [
             camera,
             headphone
@@ -161,7 +161,7 @@ export const products = [
         "sold": 10,
         "color": "Red",
         "tags": "featured",
-        "totalrating": 4.6,
+        "totalRating": 4.6,
         "images": [
             camera,
             headphone
@@ -185,7 +185,7 @@ export const products = [
         "sold": 120,
         "color": "Blue",
         "tags": "featured",
-        "totalrating": 4.9,
+        "totalRating": 4.9,
         "images": [
             camera,
             headphone
@@ -208,8 +208,8 @@ export const products = [
         "quantity": 200,
         "sold": 180,
         "color": "Green",
-        "tags": "featured",
-        "totalrating": 4.3,
+        "tags": "special",
+        "totalRating": 4.3,
         "images": [
             camera,
             headphone
@@ -232,8 +232,8 @@ export const products = [
         "quantity": 120,
         "sold": 100,
         "color": "Pink",
-        "tags": "featured",
-        "totalrating": 4.4,
+        "tags": "special",
+        "totalRating": 4.4,
         "images": [
             camera,
             headphone
@@ -256,8 +256,8 @@ export const products = [
         "quantity": 40,
         "sold": 25,
         "color": "Gray",
-        "tags": "featured",
-        "totalrating": 4.2,
+        "tags": "special",
+        "totalRating": 4.2,
         "images": [
             camera,
             headphone
@@ -280,8 +280,8 @@ export const products = [
         "quantity": 80,
         "sold": 60,
         "color": "White",
-        "tags": "featured",
-        "totalrating": 4.7,
+        "tags": "special",
+        "totalRating": 4.7,
         "images": [
             camera,
             headphone
@@ -304,8 +304,8 @@ export const products = [
         "quantity": 15,
         "sold": 5,
         "color": "Stainless Steel",
-        "tags": "featured",
-        "totalrating": 4.6,
+        "tags": "special",
+        "totalRating": 4.6,
         "images": [
             camera,
             headphone

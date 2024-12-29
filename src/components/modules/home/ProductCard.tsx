@@ -22,7 +22,7 @@ const ProductCard = ({ product }: { product: TProducts }) => {
     // sold,
     // color,
     // tags,
-    totalrating,
+    totalRating,
     images,
     // ratings,
   } = product;
@@ -56,7 +56,7 @@ const ProductCard = ({ product }: { product: TProducts }) => {
           <h6 className="brand">{brand}</h6>
           <h5 className="product-title">{title}</h5>
           <StarRatings
-            rating={Number(totalrating)}
+            rating={Number(totalRating)}
             starRatedColor="#ffd700"
             numberOfStars={5}
             name="rating"

@@ -3,6 +3,7 @@ import Categories from "@/components/modules/home/Categories";
 import Famous from "@/components/modules/home/Famous";
 import Featured from "@/components/modules/home/Featured";
 import Service from "@/components/modules/home/Service";
+import Special from "@/components/modules/home/Special";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Categories />
       <Featured />
       <Famous />
+      <Special />
     </>
   );
 }
